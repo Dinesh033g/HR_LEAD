@@ -205,14 +205,6 @@ const AdminDashboard = ({ activeTab, onOpenUpload, onOpenManual, onOpenTeam, ref
               <h3 className="font-extrabold text-base text-slate-800">Pipeline Executive Control Center</h3>
               <p className="text-xs text-slate-500">Real-time candidate metrics, channel breakdown & recruiter performance</p>
             </div>
-            <div className="flex items-center gap-2">
-              <button
-                onClick={handleClearAllLeads}
-                className="bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 text-xs font-bold px-3.5 py-2 rounded-2xl transition-all flex items-center gap-1.5 cursor-pointer shadow-xs"
-              >
-                <Trash2 className="w-4 h-4 text-rose-600" /> Reset Test Leads
-              </button>
-            </div>
           </div>
 
           {/* 4 Executive Metric Cards matching Image 2 */}
